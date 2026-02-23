@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p style="text-align: center; font-size: 24px; color: #333;">Harmony is the key to balance in all things.</p>
+    <p>Εδώ θα βρεις τους βασικούς κανόνες για την επίλυση ενός θέματος αρμονίας.</p>
+    <div class="navbar">
+        <div class="drop-menu">
+            <button class="dropbtn">dropbtn</button>
+            <div class="drop">
+                <a href="Σύμφωνη αρμονία.html">1ο Κεφάλαιο:Σύμφωνη αρμονία</a>
+                <a href="">2ο Κεφάλαιο:</a>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+.drop-menu {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.navbar{
+    background-color: darkgreen;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.drop a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.drop{  
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.drop-menu:hover .drop {
+    display: block;
+}
+.drop a:hover {
+  background-color: #ddd;
+}
+</style>
+</html>
