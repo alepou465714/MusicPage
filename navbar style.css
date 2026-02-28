@@ -35,3 +35,6 @@
 .drop a:hover {
   background-color: #ddd;
 }
+.center {
+  text-align: center;
+}
